@@ -367,12 +367,12 @@ sound.SoundId = "rbxassetid://18460893321"
 sound.Parent = game.Workspace
 sound:Play()
 end)
-wait(7.8)
+wait(7.5)
 local sound = Instance.new("Sound")
 sound.SoundId = "rbxassetid://18461671633"
 sound.Parent = game.Workspace
 sound:Play()
-delay(6.7, function()
+delay(7.1, function()
 local sound = Instance.new("Sound")
 sound.SoundId = "rbxassetid://18461821277"
 sound.Parent = game.Workspace
@@ -394,7 +394,7 @@ sound.SoundId = "rbxassetid://18462330981"
 sound.Parent = game.Workspace
 sound:Play()
 end)
-wait(1)
+wait(1.4)
 local r = game:GetService("RunService")
 local t = game:GetService("TweenService")
 local c = workspace.CurrentCamera
@@ -421,7 +421,6 @@ local function s(d)
             }):Play()
         else
             con:Disconnect()
-            c.FieldOfView = 70
             h.Humanoid.AutoRotate = true
             c.CameraType = Enum.CameraType.Custom
             c.CFrame = o
@@ -435,7 +434,7 @@ local d = m
 if d then
     s(d)
 end
-wait(11.7)
+wait(11)
 local r = game:GetService("RunService")
 local t = game:GetService("TweenService")
 local c = workspace.CurrentCamera
