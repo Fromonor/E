@@ -367,12 +367,12 @@ sound.SoundId = "rbxassetid://18460893321"
 sound.Parent = game.Workspace
 sound:Play()
 end)
-wait(7.5)
+wait(7.1)
 local sound = Instance.new("Sound")
 sound.SoundId = "rbxassetid://18461671633"
 sound.Parent = game.Workspace
 sound:Play()
-delay(7.1, function()
+delay(7.7, function()
 local sound = Instance.new("Sound")
 sound.SoundId = "rbxassetid://18461821277"
 sound.Parent = game.Workspace
