@@ -1,4 +1,3 @@
-return function(Namex)
 local nodes = {}
 local selection
 local service = setmetatable({}, {
@@ -9436,4 +9435,3 @@ Main = (function()
 	return Main
 end)()
 Main.Init()
-end
