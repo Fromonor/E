@@ -11488,7 +11488,8 @@ Main = (function()
 end)()
 
 -- Start
-task.defer:Connect(function()
+geh = function()
 Main.Init()
-end)
+end
+end
 end
