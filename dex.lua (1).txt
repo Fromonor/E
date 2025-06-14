@@ -11365,7 +11365,7 @@ end
 end)()
 
 -- Start
-task.defer:Connect(function()
+task.defer(function()
 Main.Init()
 end)
 end
